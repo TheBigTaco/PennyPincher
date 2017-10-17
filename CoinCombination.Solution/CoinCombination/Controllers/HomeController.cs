@@ -12,5 +12,15 @@ namespace CoinCombination.Controllers
       {
         return View();
       }
+
+      [HttpPost("/combo")]
+      public ActionResult Combo()
+      {
+
+          Coin newCoin = new Coin(double.Parse(Request.Form["money-input"]));
+          List<int> coinAmounts = newCoin.Gatekeeper(newCoin);
+          return View(coinAmounts);
+      }
     }
+
 }

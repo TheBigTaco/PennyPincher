@@ -1,0 +1,15 @@
+@{
+    Layout = "_Layout";
+}
+@if(@Model.Count == 0)
+{
+    <p>No valid input!!! D: </p>
+}
+else
+{
+    <p>Dollars: @Model[0]</p>
+    <p>Quarters: @Model[1]</p>
+    <p>Dimes: @Model[2]</p>
+    <p>Nickels: @Model[3]</p>
+    <p>Pennies: @Model[4]</p>
+}
