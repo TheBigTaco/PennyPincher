@@ -7,7 +7,7 @@ namespace CoinCombination.Models
     public class Coin
     {
         public double Amount{get; set;}
-        private static List<int> _moneyDenominations = new List<int> {};
+        private List<int> _moneyDenominations = new List<int> {};
 
         public Coin (double inputAmount)
         {
@@ -61,7 +61,7 @@ namespace CoinCombination.Models
             return removedNickels;
         }
 
-        public static void ClearAll()
+        public void ClearAll()
         {
             _moneyDenominations.Clear();
         }

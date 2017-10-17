@@ -1,3 +1,23 @@
 body {
   font-family: sans-serif;
 }
+
+.jumbotron
+{
+    background-image: url(../img/money.jpg);
+    text-align: center;
+    text-shadow: 3px 3px 5px white;
+    color: green;
+    border-top: solid lightgreen;
+    border-left: solid lightgreen;
+    border-bottom: solid darkgreen;
+    border-right: solid darkgreen;
+
+}
+
+.jumbotron h1
+{
+    font-size: 100px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
