@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
-using Rename.Models;
+using CoinCombination.Models;
 
-namespace Rename.Controllers
+namespace CoinCombination.Controllers
 {
     public class HomeController : Controller
     {
